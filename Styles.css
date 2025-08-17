@@ -1,0 +1,89 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body and Typography */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #004466;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #003355;
+}
+
+.site-header h1 {
+  margin-bottom: 10px;
+}
+
+.main-nav a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+}
+
+.main-nav a:hover {
+  border: 1px solid #fff;
+  background-color: #006699;
+}
+
+/* Content Section */
+.content-section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Card Component */
+.card {
+  background-color: #e2f0f8;
+  padding: 15px;
+  border: 2px solid #0077aa;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+/* Button Styling */
+.btn {
+  background-color: #0077aa;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #005577;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
